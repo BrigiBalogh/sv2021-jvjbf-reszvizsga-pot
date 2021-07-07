@@ -1,0 +1,19 @@
+
+POST http://localhost:8080/api/accommodations
+Content-Type: application/json
+
+{
+  "name": "Hello",
+  "city": "Budapest",
+  "maxCapacity": 1200,
+  "price": 45
+}
+
+###
+
+POST http://localhost:8080/api/accommodations/1/book
+Content-Type: application/json
+
+{
+  "numberOfPeople": 1230
+}
