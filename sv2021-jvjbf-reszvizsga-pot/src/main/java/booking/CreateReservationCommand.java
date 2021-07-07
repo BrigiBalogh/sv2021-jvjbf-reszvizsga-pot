@@ -7,10 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class AccommodationDTO {
-
-    private String name;
-    private String city;
-    private int availableCapacity;
-    private int price;
+public class CreateReservationCommand {
+    private int numberOfPeople;
 }
